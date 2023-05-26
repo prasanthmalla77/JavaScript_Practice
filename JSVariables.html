@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    name:<input id="input1" type="text">
+    <button id="btn1">click</button>
+    <p id="para1">this is para 1</p>
+    <script>
+        document.getElementById("btn1").onclick = function(){
+            var val="";
+            val = document.getElementById("input1").value;
+            console.log(val);
+            document.getElementById("para1").innerHTML = val;
+        }
+        
+    </script>
+</body>
+</html>
