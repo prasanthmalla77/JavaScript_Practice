@@ -1,0 +1,17 @@
+<html>
+<head>
+    <!-- *.js file contain the JavaScript code -->
+   <script src="script.js"></script>
+</head>
+<body>
+    <button id="btn" onclick="alert('hi user!')">click me</button>
+    <p id="text">hi user</p>
+    <script>
+    alert("hi user!");
+    document.getElementById("btn").onclick = function(){
+        alert("button clicked");
+        document.getElementById("text").innerHTML = "prasanth";
+    }
+    </script>
+</body>
+</html>
